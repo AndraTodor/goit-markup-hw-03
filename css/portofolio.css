@@ -1,0 +1,126 @@
+:root {
+    --brand-color: #2E2F42;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+/*nav section*/
+.logo::after {
+    content: "STUDIO";
+    color: var(--brand-color);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.main-nav a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--brand-color);
+    cursor: pointer;
+}
+
+a:hover {
+    color: #404BBF;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+address a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    cursor: pointer;
+    color: #434455;
+}
+/*Filter Portofolio Section*/
+
+.first-button {
+    background-color: #404BBF;
+    color: #FFFFFF
+}
+ul button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/*center section*/
+section h3{
+    font-size: 20px;
+    color: var(--brand-color);
+    text-align: left;
+}
+section p{
+    font-size: 16px;
+    text-align: left;
+    color: #434455;
+}
+
+/*Footer section*/
+.logo-bottom::after {
+    content: "STUDIO";
+    color: #F4F4FD;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    letter-spacing: 0.02em;
+}
+
+.footer-section {
+    background-color: var(--brand-color);
+    width: 1440px;
+    height: 312px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 1020px;
+    padding-left: 156px;
+}
+
+.footer-section p {
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}

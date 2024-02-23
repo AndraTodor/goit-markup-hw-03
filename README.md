@@ -1,2 +1,1 @@
-# goit-markup-hw-03
-Tema 3 Flexbox
+https://andratodor.github.io/goit-markup-hw-02/
