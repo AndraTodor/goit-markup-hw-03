@@ -108,6 +108,9 @@ address a{
     flex-direction: column;
     align-items: center;
 }
+
+/* Wat we do section */
+
 .feature {
     color: var(--brand-color);
     display: flex;
@@ -129,6 +132,8 @@ li > p{
     text-align: left;
 }
 
+/* Our team section */
+
 .images{
     display: flex;
     justify-content: center;
@@ -138,6 +143,27 @@ li > p{
 .background-team {
     background-color: #f4f4fd;
 }
+
+h3{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
+.card p{
+    font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
 h2 {
     font-size: 36px;
     font-weight: 700;
