@@ -18,35 +18,30 @@
     <link rel="stylesheet" href="./css/studio.css" />
   </head>
   <body>
-    <header>
-      <div class="container nav-bar">
+    <header class="nav-bar container">
+      <nav class="main-nav">
         <a href="index.html" class="logo">Web</a>
-        <nav class="main-nav">
-          <a href="index.html">Studio</a>
-          <a href="portofolio.html">Portofolio</a>
-          <a href="contacts.html">Contacts</a>
-        </nav>
-        <address class="address-nav">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
-        </address>
-      </div>
+        <a href="index.html">Studio</a>
+        <a href="portofolio.html">Portofolio</a>
+        <a href="contacts.html">Contacts</a>
+      </nav>
+      <address>
+        <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
+        <a href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
+      </address>
     </header>
     <main>
       <!-- Hero Section -->
-      <section class="hero-section container">
-        <div class="container-column">
-          <h1 class="hero-title">
-            Effective Solutions<br />
-            for Your Business
-          </h1>
+      <section class="hero-section">
+        <div class="container-column container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button">Order Service</button>
         </div>
       </section>
       <!-- Strong points section -->
-      <section>
+      <section class="container">
         <ul class="feature">
-          <li>
+          <li class="shadow-item">
             <h3>Strategy</h3>
             <p>
               Our goal is to identify the business<br />
@@ -102,23 +97,23 @@
       <!-- Our team section -->
       <section class="container background-team">
         <h2>Our Team</h2>
-        <div class="images">
-          <div class="card">
+        <div class="cards-team">
+          <div class="card-team">
             <img src="./images/imgA.png" alt="Product Designer-Mark Guerero" />
             <h3>Mark Guerero</h3>
             <p>Product Designer</p>
           </div>
-          <div class="card">
+          <div class="card-team">
             <img src="./images/imgB.png" alt="Frontend Developer-Tom Ford" />
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </div>
-          <div class="card">
+          <div class="card-team">
             <img src="./images/imgC.png" alt="Marketing-Camila Garcia" />
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </div>
-          <div class="card">
+          <div class="card-team">
             <img src="./images/imgD.png" alt="UI Designer-Daniel Wilson" />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
