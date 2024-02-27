@@ -1,12 +1,13 @@
-:root{
-    --brand-color:#2E2F42;
+:root {
+    --brand-color: #2E2F42;
 }
+
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
-ul {
-    list-style: none;
-}
+
+/*nav section*/
 .logo::after {
     content: "STUDIO";
     color: var(--brand-color);
@@ -18,18 +19,25 @@ ul {
     text-align: left;
     letter-spacing: 0.02em;
 }
- .logo {
+
+.logo {
     color: #4D5AE5;
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.03em;
-    text-align: center;
- }   
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
 }
+
 .main-nav {
     font-size: 16px;
     font-weight: 500;
@@ -55,9 +63,9 @@ a:hover {
     margin-block-start: 0;
     min-height: 72px;
     align-items: center;
-        border-bottom: 1px solid #e7e9fc;
-            width: 1440px;
-            height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+    width: 1440px;
+    height: 72px;
 }
 
 address a {
@@ -228,3 +236,71 @@ h2 {
     margin: auto;
 }
 
+/* Portofolio */
+
+/*Filter Portofolio Section*/
+
+.first-button {
+    background-color: #404BBF;
+    color: #FFFFFF
+}
+
+ul button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button {
+    background: #f4f4fd;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 96px 271px 72px;
+}
+
+/*grid cards section*/
+
+.card h3 {
+    font-size: 20px;
+    color: var(--brand-color);
+    text-align: left;
+}
+
+.card p {
+    font-size: 16px;
+    text-align: left;
+    color: #434455;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 0;
+    /* grid-template-columns: repeat(auto-fit(minmax(200px, 300px)); */
+}
+
+.card {
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+    /* flex-basis: calc((100%-72px)/3)); */
+}

@@ -17,7 +17,6 @@ body {
     text-align: left;
     letter-spacing: 0.02em;
 }
-
 .logo {
     color: #4D5AE5;
     font-family: 'Raleway';
@@ -76,7 +75,7 @@ address a {
     display: flex;
     gap: 30px;
 }
-/*Filter Portofolio Section*/
+
 
 .first-button {
     background-color: #404BBF;
@@ -134,19 +133,19 @@ button:hover{
     border: 1px solid #e7e9fc;
     width: 360px;
     height: 420px;
-    flex-basis: calc((100%-72px)/3));
+    /* flex-basis: calc((100%-72px)/3)); */
 }
 
 /*Footer section*/
 
 .logo-bottom {
     font-family: "Raleway", sans-serif;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.16667;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .logo-bottom::after {
