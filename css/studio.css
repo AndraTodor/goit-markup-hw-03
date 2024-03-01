@@ -127,9 +127,6 @@ address a {
     gap: 1rem;
     margin: 120px 0;
 }
-.shadow-item {
-    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-}
 li > h3{
     text-align: left;
     margin-bottom: 5px;
@@ -164,9 +161,6 @@ h2 {
     line-height: 40px;
     letter-spacing: 0.02em;
     text-align: center;
-}
-.feature:first-child{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* Our team section */
